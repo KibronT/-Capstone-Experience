@@ -1,4 +1,4 @@
-/* Hero — top intro section.
+/* Hero: top intro section.
    Reads nothing from data; purely presentational. */
 
 function Hero() {

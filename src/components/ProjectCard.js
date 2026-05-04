@@ -1,4 +1,4 @@
-/* ProjectCard — one project tile.
+/* ProjectCard: one project tile.
    Renders only the fields that exist; missing links become a disabled
    "Coming soon" button so the card layout stays consistent. */
 

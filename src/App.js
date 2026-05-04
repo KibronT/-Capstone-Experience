@@ -1,4 +1,4 @@
-/* App — top-level component.
+/* App: top-level component.
    Groups projects by semester (newest first) and assembles the page. */
 
 const { useMemo } = React;

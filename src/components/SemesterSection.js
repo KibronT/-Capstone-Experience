@@ -1,4 +1,4 @@
-/* SemesterSection — one semester's heading + grid of project cards. */
+/* SemesterSection: one semester's heading + grid of project cards. */
 
 function SemesterSection({ group }) {
   const count = group.projects.length;

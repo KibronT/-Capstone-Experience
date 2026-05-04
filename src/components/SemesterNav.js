@@ -1,4 +1,4 @@
-/* SemesterNav — sticky chip-row that anchor-scrolls to each semester.
+/* SemesterNav: sticky chip-row that anchor-scrolls to each semester.
    Pure presentational; receives the grouped semester list as props. */
 
 function SemesterNav({ semesters }) {

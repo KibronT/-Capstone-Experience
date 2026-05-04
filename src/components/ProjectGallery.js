@@ -1,4 +1,4 @@
-/* ProjectGallery — wraps all the semester sections into one main region. */
+/* ProjectGallery: wraps all the semester sections into one main region. */
 
 function ProjectGallery({ semesters }) {
   return (

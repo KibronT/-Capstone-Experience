@@ -1,5 +1,5 @@
 /* =========================================================================
-   INFM737 Capstone Archive — main stylesheet
+   INFM737 Capstone Archive: main stylesheet
    Light, modern, academic-tech. Mobile-first; breakpoints scale up.
    ========================================================================= */
 
@@ -15,7 +15,7 @@
   --text-subtle: #78716c;
 
   --primary: #0c0a09;
-  --accent: #b91c1c;        /* refined deep red — academic, confident */
+  --accent: #b91c1c;        /* refined deep red, academic, confident */
   --accent-soft: #fef2f2;
   --link: #1d4ed8;
 

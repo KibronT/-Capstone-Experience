@@ -1,4 +1,4 @@
-/* Footer — closing section.
+/* Footer: closing section.
    Static for v1; safe to extend with real links later. */
 
 function Footer() {

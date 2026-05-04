@@ -1,11 +1,11 @@
 /* =========================================================================
-   Project data — single source of truth for the archive.
+   Project data: single source of truth for the archive.
 
    To add a new project:
      1. Copy one of the objects below.
      2. Give it a unique `id` (e.g. "fa26-001").
      3. Fill in the fields. Any field you omit (or set to null) will be
-        handled gracefully by the UI — for example, missing links render
+        handled gracefully by the UI. For example, missing links render
         as a disabled "Coming soon" button instead of disappearing.
      4. Save the file. Refresh the page. Done.
 
@@ -119,7 +119,7 @@ window.PROJECTS = [
     abstract:
       'A mobile-friendly companion that walks first-year college students through evaluating sources in real time. Built around the SIFT framework, with short interactive scenarios developed in collaboration with reference librarians.',
     tags: ['Information Literacy', 'Education', 'Mobile'],
-    partner: 'UMD Libraries — Teaching & Learning',
+    partner: 'UMD Libraries: Teaching & Learning',
     tools: ['React Native', 'Firebase'],
     presentationUrl: '#',
     repositoryUrl: '#',
