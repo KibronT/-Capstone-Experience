@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INFM737 Capstone Project Archive</title>
+    <meta
+      name="description"
+      content="A public archive of final capstone projects from INFM737: Information Management Capstone Experience at the University of Maryland College of Information Studies."
+    />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!--
+      First-iteration setup: React, ReactDOM, and Babel are loaded from a CDN.
+      This means there is no build step. To preview locally, run a tiny static
+      server from this folder (see README.md). On GitHub Pages it just works.
+    -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Order matters: data first, then leaf components, then composites, then App. -->
+    <script type="text/babel" data-presets="env,react" src="data/projects.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/Hero.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/SemesterNav.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/ProjectCard.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/SemesterSection.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/ProjectGallery.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/components/Footer.js"></script>
+    <script type="text/babel" data-presets="env,react" src="src/App.js"></script>
+  </body>
+</html>
